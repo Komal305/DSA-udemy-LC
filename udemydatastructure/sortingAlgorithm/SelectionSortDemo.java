@@ -1,12 +1,11 @@
 package udemydatastructure.sortingAlgorithm;
 
-import dsa.with.dineshsir.TimeComplexcity;
 
 public class SelectionSortDemo {
 public static void main(String[] args) {
 	int[] a = {20,35,-15,7,55,1,-22};
 	double now=System.currentTimeMillis();
-	TimeComplexcity t=new TimeComplexcity();
+	//TimeComplexcity t=new TimeComplexcity();
 	
 
 	for(int lastUnsortedIndex=a.length-1; lastUnsortedIndex >0;lastUnsortedIndex--) {
