@@ -4,7 +4,6 @@ public class BubbleSortDemo {
 
 	public static void main(String[] args) {
 		int[] a= {20,33,-1,23,1,55};
-		double now=System.currentTimeMillis();
 		for(int i=a.length-1;i>0;i--) {
 			for(int j=0; j<i; j++) {
 				if(a[j]>a[j+1]) {
@@ -14,9 +13,9 @@ public class BubbleSortDemo {
 				}
 			}
 		}
-		System.out.println(now);//1.709530224537E12
+		
 		for(int a1:a) {
-			System.out.println(a1);
+			System.out.print(a1+",");//-1,1,20,23,33,55,
 		}
 	}
 
